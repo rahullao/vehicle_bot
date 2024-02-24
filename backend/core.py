@@ -44,5 +44,5 @@ def run_llm(query: str) -> Any:
     return qa_chain({"query": query})
 
 
-if __name__ == "__main__":
-    print(run_llm(query="How to measure outside temperature?"))
+'''if __name__ == "__main__":
+    print(run_llm(query="How to measure outside temperature?"))'''
